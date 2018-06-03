@@ -14,6 +14,12 @@
 		1968BC7220C273F20099EDAD /* glad.c in Sources */ = {isa = PBXBuildFile; fileRef = 1968BC7020C273F20099EDAD /* glad.c */; };
 		1968BC7520C2749B0099EDAD /* LYWindow.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1968BC7320C2749B0099EDAD /* LYWindow.cpp */; };
 		1971BE3A20C13EF800BC2932 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 1971BE3920C13EF800BC2932 /* main.cpp */; };
+		3C64883A20C385E90039951B /* LYShape.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64883820C385E90039951B /* LYShape.cpp */; };
+		3C64883D20C386810039951B /* LYShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64883B20C386810039951B /* LYShader.cpp */; };
+		3C64884020C387580039951B /* LYVertexShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64883E20C387580039951B /* LYVertexShader.cpp */; };
+		3C64884320C38EF90039951B /* LYFragmentShader.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64884120C38EF90039951B /* LYFragmentShader.cpp */; };
+		3C64884620C39A900039951B /* LYShaderProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64884420C39A900039951B /* LYShaderProgram.cpp */; };
+		3C64884920C3CF100039951B /* LYTriangle.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3C64884720C3CF100039951B /* LYTriangle.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -42,6 +48,18 @@
 		1968BC7420C2749B0099EDAD /* LYWindow.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = LYWindow.hpp; sourceTree = "<group>"; };
 		1971BE3620C13EF800BC2932 /* 1 Hello Window Exercises */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "1 Hello Window Exercises"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1971BE3920C13EF800BC2932 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3C64883820C385E90039951B /* LYShape.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYShape.cpp; sourceTree = "<group>"; };
+		3C64883920C385E90039951B /* LYShape.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYShape.hpp; sourceTree = "<group>"; };
+		3C64883B20C386810039951B /* LYShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYShader.cpp; sourceTree = "<group>"; };
+		3C64883C20C386810039951B /* LYShader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYShader.hpp; sourceTree = "<group>"; };
+		3C64883E20C387580039951B /* LYVertexShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYVertexShader.cpp; sourceTree = "<group>"; };
+		3C64883F20C387580039951B /* LYVertexShader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYVertexShader.hpp; sourceTree = "<group>"; };
+		3C64884120C38EF90039951B /* LYFragmentShader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYFragmentShader.cpp; sourceTree = "<group>"; };
+		3C64884220C38EF90039951B /* LYFragmentShader.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYFragmentShader.hpp; sourceTree = "<group>"; };
+		3C64884420C39A900039951B /* LYShaderProgram.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYShaderProgram.cpp; sourceTree = "<group>"; };
+		3C64884520C39A900039951B /* LYShaderProgram.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYShaderProgram.hpp; sourceTree = "<group>"; };
+		3C64884720C3CF100039951B /* LYTriangle.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LYTriangle.cpp; sourceTree = "<group>"; };
+		3C64884820C3CF100039951B /* LYTriangle.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = LYTriangle.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -146,6 +164,18 @@
 				1971BE3920C13EF800BC2932 /* main.cpp */,
 				1968BC7320C2749B0099EDAD /* LYWindow.cpp */,
 				1968BC7420C2749B0099EDAD /* LYWindow.hpp */,
+				3C64883820C385E90039951B /* LYShape.cpp */,
+				3C64883920C385E90039951B /* LYShape.hpp */,
+				3C64884720C3CF100039951B /* LYTriangle.cpp */,
+				3C64884820C3CF100039951B /* LYTriangle.hpp */,
+				3C64883B20C386810039951B /* LYShader.cpp */,
+				3C64883C20C386810039951B /* LYShader.hpp */,
+				3C64883E20C387580039951B /* LYVertexShader.cpp */,
+				3C64883F20C387580039951B /* LYVertexShader.hpp */,
+				3C64884120C38EF90039951B /* LYFragmentShader.cpp */,
+				3C64884220C38EF90039951B /* LYFragmentShader.hpp */,
+				3C64884420C39A900039951B /* LYShaderProgram.cpp */,
+				3C64884520C39A900039951B /* LYShaderProgram.hpp */,
 			);
 			path = "1 Hello Window Exercises";
 			sourceTree = "<group>";
@@ -207,9 +237,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3C64884620C39A900039951B /* LYShaderProgram.cpp in Sources */,
 				1968BC7520C2749B0099EDAD /* LYWindow.cpp in Sources */,
 				1971BE3A20C13EF800BC2932 /* main.cpp in Sources */,
+				3C64883A20C385E90039951B /* LYShape.cpp in Sources */,
+				3C64884320C38EF90039951B /* LYFragmentShader.cpp in Sources */,
+				3C64883D20C386810039951B /* LYShader.cpp in Sources */,
 				1968BC7220C273F20099EDAD /* glad.c in Sources */,
+				3C64884920C3CF100039951B /* LYTriangle.cpp in Sources */,
+				3C64884020C387580039951B /* LYVertexShader.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,10 +11,10 @@
 
 #include <stdio.h>
 #include <vector>
+#include <functional>
 #include <glad/glad.h>
 #include <glfw3.h>
 
-static auto basicLambda = []{};
 
 class LYWindow {
 
@@ -25,8 +25,7 @@ public:
     LYWindow(float width, float height, const char *title);
     
     void addVAO(unsigned int VAO);
-    
-    void render();
+    void render(const std::function<void ()>& VAO_render);
 };
 
 #endif /* LYWindow_hpp */

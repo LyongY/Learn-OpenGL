@@ -20,19 +20,20 @@ LYWindow::LYWindow(float width, float height, const char *title) {
     
 }
 
-void LYWindow::render() {
+void LYWindow::render(const std::function<void ()>& VAO_render) {
     while (!glfwWindowShouldClose(_window)) {
         processInput(_window);
         
         glClearColor(0.2, 0.3, 0.3, 1.0);
         glClear(GL_COLOR_BUFFER_BIT);
         
-        iterator<<#class _Category#>, <#class _Tp#>> v = _VAOArr.begin();
+        VAO_render();
         
         glfwSwapBuffers(_window);
         glfwPollEvents();
     }
 }
+
 
 
 
